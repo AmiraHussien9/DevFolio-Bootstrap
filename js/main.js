@@ -54,14 +54,14 @@ function counter(el) {
     }, 100);
 }
 
-// ===========Scroll to to button============
-let arrow = document.getElementById("arrow");
+// ===========Scroll to to button==============
+ let arrow = document.getElementById("arrow");
 console.log(arrow);
 
 
 
 
-// ***********change on Scroll ************
+// ***********change on Scroll ****************/
 
 window.onscroll = function () {
     if (window.scrollY >= aboutSection.offsetTop) {
