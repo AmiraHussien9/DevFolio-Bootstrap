@@ -614,6 +614,15 @@ textarea {
         
         padding: 10px;     
     }
+
+    .navbar-mobile ul {
+        padding-left: 0px !important;
+     }
+    
+
+     li a {
+    margin-left: 0px;
+    }
 }
 @media(max-width:470px) {
     #contact .social-icons i {
@@ -621,8 +630,10 @@ textarea {
         padding: 8px; 
         font-size: 15px;    
     }
-    /* .container {
-        padding-right: 0px !important;
-    } */
+    #contact.p-5 {
+        padding: 30px 20px !important;
+    } 
+
+   
 }
 /* end contact */
