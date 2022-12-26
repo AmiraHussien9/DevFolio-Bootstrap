@@ -99,3 +99,15 @@ arrow.onclick = function () {
 }
 
 
+// /-------links-navbar -----
+
+let links = document.querySelectorAll(".nav-item");
+console.log(links);
+let navBar = document.querySelector(".navbar-collapse");
+
+
+links.forEach(link => {
+    link.addEventListener("click" , function() {
+        navBar.classList.remove("show")
+    })
+})
